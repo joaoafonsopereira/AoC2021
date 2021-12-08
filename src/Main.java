@@ -8,8 +8,8 @@ import java.lang.reflect.InvocationTargetException;
 
 public class Main {
 
-    static final int DAY = 1;
-    static final int PART = 1;
+    static final int DAY = 3;
+    static final int PART = 2;
 
     static String getPkgName(int day) {
         String res = String.valueOf(day);
@@ -46,3 +46,16 @@ public class Main {
     }
 
 }
+
+//00100
+//11110
+//10110
+//10111
+//10101
+//01111
+//00111
+//11100
+//10000
+//11001
+//00010
+//01010
