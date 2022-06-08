@@ -12,7 +12,10 @@ public class Inputs {
     static final String BASE_INPUT_URL = "https://adventofcode.com/2021/day/%d/input";
     static final String BASE_FILE_NAME = System.getProperty("user.dir") + "/AoC2021/inputs/%d.txt"; // TODO HACKY - PROJ/MODULE STRUCTURE KINDA SUCKS RN
 
-    static final String MY_SESSION_COOKIE = "53616c7465645f5f348b2da13e936657d579f093a1a3b16aa5e04de847b12218255aaa311bc6f50f273988c35c87409e";
+    static final String MY_SESSION_COOKIE =
+              "53616c7465645f5f6856ff6091ac8fb72da83ecf8080713cb7abb761a27d2bb25d6c04fd6aba98eb53842bc5b2681f52b9e999e19670a784d65537c0fc53ad50";
+//            "53616c7465645f5f348b2da13e936657d579f093a1a3b16aa5e04de847b12218255aaa311bc6f50f273988c35c87409e";
+
 
     public static void downloadInput(URL url, File destFile) throws IOException {
         URLConnection request = url.openConnection();
